@@ -63,6 +63,7 @@ nav ul li{
 } 
 #myProgressBar{
     width: 80vw;
+    cursor: pointer;
 }
 .songItem{
     height: 50px;
@@ -89,9 +90,17 @@ nav ul li{
 .songItemContainer{
     margin-top: 40px;
 }
+
 .songInfo{
     position: absolute;
-    left: 20vh;
-    justify-content: center;
+    left: 10vw;
+    bottom: 45px;
+    display: flex;
     align-items: center;
+    gap: 10px;
+    font-family: 'Varela Round', sans-serif;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
 }
