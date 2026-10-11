@@ -61,3 +61,4 @@ Audio files are referenced from the `songs/` folder in `scriot.js`. To add or re
 
 - The JavaScript file is currently named `scriot.js` (rather than `script.js`); `index.html` loads it by that name.
 - The playlist has ten entries, while the `songs/` folder currently contains nine MP3 files. The last two playlist entries both reference `songs/9.mp3`.
+# Spotify-Clone
